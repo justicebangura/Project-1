@@ -29,4 +29,23 @@ We were able to answer the above question by analyzing the relationship between 
 
 After calculating the daily returns, we were able to calculate the cumulative returns which is displayed in the plot below. We can see a rapid decline in the cumulative returns for the top 3 US banks as well as the bank index in 2020 with the onset of COVID-19 in 2020. This is likely due to the instability and high volatility the market faced during the pandemic, as well as the drastic increase in unemployment rates which negatively impacts bank profitability. The cumulative returns for the top 3 US banks and the bank index steadily increase and peak in 2022 – likely due to rapid increase of interest rates by feds in 2022. Thereafter, cumulative returns decline over the first half of 2022, then remaining stable through the end of 2023. 
 
-![Cumulative Returns](cumulative_returns_plot.png)
+![Cumulative Returns](Figures/cumulative_returns_plot.png)
+
+The plot below displays the rolling standard deviation with a window of 21 days. The largest change in standard deviation occurs in 2020 with the onset of COVID-19. This drastic increase implies a greater fluctuation in bank stock prices indicating a higher volatility and greater risk – which aligns with the cumulative returns plot shown above (rapid decrease in cumulative returns in 2020).
+
+![Rolling Standard Deviation](Figures/rolling_std_plot.png)
+
+**Question:** How are do the 3 top US banks compare to each another and the bank index?
+
+The heatmap below displays the correlation of the top 3 US bank stock prices with the bank index. This heat map demonstrates that JP Morgan Chase and Bank of America are the most correlated amongst the 4, which is not a surprise given they are the top 2 banks in the US. 
+
+![Heat Map](Figures/heatmap.png)
+
+The distribution plot is based off of daily returns, and it appears all 3 banks and the index are relatively normally distributed.
+
+![Distribution](Figures/distrubution_plot.png)
+
+According to the Sharpe ratios shown below, JPMorgan Chase has a more attractive risk reward trade off compared to the other banks and the bank index, indicating a greater return at a lower risk. 
+
+![Sharpe Ratios](Figures/sharpe_ratios_plot.html)
+
