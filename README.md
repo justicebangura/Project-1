@@ -123,4 +123,3 @@ An examination of the difference between operating cash flow and net income prov
 
 ![Operating CAsh Flow vs Net Income](Figures/pygal plot.PNG)
 
-
