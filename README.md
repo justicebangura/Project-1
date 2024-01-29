@@ -7,7 +7,7 @@
 We assume that:
 
 1.	The Top 3 US Banks stock data and their financial report, as well as with iShares S&P U.S. Banks UCITS ETF data can represent the US publicly traded Banks market.
-2.	The most important economic environment factors for US banks market can be briefly assessed by fed and treasury bonds interests, inflation forward rate, mortgage rates, cpi and unemployment rate.
+2.	The most important economic environment factors for US banks market can be briefly assessed by fed and treasury bonds interests, inflation forward rate, mortgage rates, cpi, and unemployment rate.
    
 **The primary question we asked is:**
 How did the US publicly traded Banks market behave during the last 5 years (2019-2023) based on the recent economic environment?
@@ -27,7 +27,7 @@ We were able to answer the above question by analyzing the relationship between 
 
 **Question:** How has the bank market fluctuated over the past 5 years (2019-2023), and why?
 
-After calculating the daily returns, we were able to calculate the cumulative returns which is displayed in the plot below. We can see a rapid decline in the cumulative returns for the top 3 US banks as well as the bank index in 2020 with the onset of COVID-19 in 2020. This is likely due to the instability and high volatility the market faced during the pandemic, as well as the drastic increase in unemployment rates which negatively impacts bank profitability. The cumulative returns for the top 3 US banks and the bank index steadily increase and peak in 2022 – likely due to rapid increase of interest rates by feds in 2022. Thereafter, cumulative returns decline over the first half of 2022, then remaining stable through the end of 2023. 
+After calculating the daily returns, we were able to calculate the cumulative returns which is displayed in the plot below. We can see a rapid decline in the cumulative returns for the top 3 US banks as well as the bank index in 2020 with the onset of COVID-19. This is likely due to the instability and high volatility the market faced during the pandemic, as well as the drastic increase in unemployment rates which negatively impacts bank profitability. The cumulative returns for the top 3 US banks and the bank index steadily increase and peak in 2022 – likely due to rapid increase of fed interest rates in 2022. Thereafter, cumulative returns decline over the first half of 2022, then remaining stable through the end of 2023. 
 
 ![Cumulative Returns](Figures/cumulative_returns_plot.png)
 
@@ -47,16 +47,16 @@ The distribution plot is based off of daily returns, and it appears all 3 banks 
 
 According to the Sharpe ratios shown below, JPMorgan Chase has a more attractive risk reward trade off compared to the other banks and the bank index, indicating a greater return at a lower risk. 
 
-![Sharpe Ratios](Figures/sharpe_ratios_plot.html)
+![Sharpe Ratios](Figures/sharpe_ratios_plot.png)
 
 ### Economic Environment Analysis
 
-**Question:** How does the 10 Year treasury bond and Fed Funds interest rate with 5 year forward inflation rate behave during 2019-2023? Are they correlated with each other?
+**Question:** How does the 10 Year Treasury Bond and Fed Funds interest rate with 5 year forward inflation rate behave during 2019-2023? Are they correlated with each other?
 
 Figure 2019-2023 Interest Rates and Inflation forward rates behaviour:
 ![fig1](./Figures/rates_inflattion_plot.png) 
 
-The above plot shows that inflation dropped signicantly when Covid started in Feb 2020 and maintained low, then Fed decreased the Fed Funds Interest Rate to almost 0 to bring up the inflation. However, the 5 year forward inflation rate continued rising since 2021 while the fed fund interest rate maintained very low, and 10 year treasury bond interest is growing to maintain the 5 year forward inflation rate in a relatively stable level until the fed fund interest rate starts to grow rapidly by Fed since early 2022, while the 5 year forward inflation rate remains stable but slightly higher level than pre-Covid Period. Until the most recent increase of Fed Fund Interest, the inflation rate gradualy starts to drop slightly since the end of 2023.
+The above plot shows that inflation dropped signicantly when Covid started in Feb 2020 and maintained low, then Fed decreased the Fed Funds Interest Rate to almost 0 to bring up the inflation. However, the 5 year forward inflation rate continued rising since 2021 while the fed fund interest rate remainded very low. The 10 year treasury bond interest is growing to maintain the 5 year forward inflation rate in a relatively stable level until the fed fund interest rate starts to grow rapidly by Fed since early 2022, while the 5 year forward inflation rate remains stable but slightly higher level than pre-Covid period. Until the most recent increase of Fed Fund Interest, the inflation rate gradualy starts to drop since the end of 2023.
 
 From the correlation heatmap between interest rates and 5 year inflation forward rate:
 ![fig2](./Figures/rates_inflattion_heatmap.png) 
@@ -70,24 +70,24 @@ The relationship plots show similar relationships of 10 year treasury bond inter
 ![fig5](./Figures/fed_treasury_plot.png) 
 
 
-**Question:** How does 30 Year mortgage rate, cpi with us unemployment rate behave during 2019-2023? Are they correlated with each other?
+**Question:** How does 30 Year mortgage rate, CPI, and US unemployment rate behave during 2019-2023? Are they correlated with each other?
 
 From 2019-2023 30 Year Mortgage Rate with US Unemployment Rate and CPI Rate Figures as:
 ![fig6](./Figures/mortgage_unemployment_plot.png) 
 ![fig7](./Figures/cpi_plot.png) 
 
-It is clear that the unemployement rate rised significantly in short time due to Covid 19 policy effect and dropped greatly after flexible Covid 19 policy adjustments, and the 30-year mortgage rate dropped to historical low based on Fed lowered the base rate to almost 0 since 2020. Similarly, when Fed kept rapidly increasing policy Fed Funds rate since 2022, the 30-year mortgage rate keeps climbing up as well until the end of 2023 while unemployment rate is kept stably with pre-Covid level in 2022-2023. And in 2019-2023, US CPI rate keeps climbing up with a little dent due to Covid 19 effect in early 2020.
+It is clear that the unemployement rate rised significantly in a short period due to Covid-19 policy effect and dropped greatly after flexible Covid-19 policy adjustments, and the 30-year mortgage rate dropped to a historical low based on Fed lowering the base interest rate to almost 0 since 2020. Similarly, when Fed kept rapidly increasing policy Fed Funds rate since 2022, the 30-year mortgage rate keeps climbing until the end of 2023 while unemployment rate is kept stable with pre-Covid level in 2022-2023. In 2019-2023, US CPI rate keeps climbing up with a little dent due to Covid-19 effect in early 2020.
 
-From relationship plots and the correlation heatmap of 30 year mortgage rate vs CPI vs US unemployment rate as:
+From relationship plots and the correlation heatmap of 30-year mortgage rate vs CPI vs US unemployment rate as:
 
 ![fig8](./Figures/mortgage_cpi_plot.png) 
 ![fig9](./Figures/unemployment_cpi_plot.png)
 ![fig10](./Figures/unemployment_mortgage_plot.png) 
 ![fig11](./Figures/mortgage_cpi_unemployment_heatmap.png)
 
-Unemployment Rate is negtively correlated with CPI and mortgage rate, and its changes were not affected by cpi or mortgage rate change. At the same period, mortgage rate with CPI has a weak correlation with their changes.
+Unemployment Rate is negtively correlated with CPI and mortgage rate, and its changes were not affected by CPI or mortgage rate change. At the same period, mortgage rate with CPI has a weak correlation with their changes.
 
-**Question:**  How does US banks index price and trading volume look like during 2019-2023? Does US banks index price affected by interests or inflation rates?
+**Question:**  How does US banks index price and trading volume look like during 2019-2023? Is the US banks index price affected by interests or inflation rates?
 
 The S&P 500 US Banks IShare Index data from 2019-2023 as:
 
@@ -96,9 +96,9 @@ The S&P 500 US Banks IShare Index data from 2019-2023 as:
 ![fig14](./Figures/index_daily_return_plot.png)
 ![fig15](./Figures/index_cummulative_return_plot.png)
 
-The index price and cummulative return has large drops due to Covid effect as well as interest rate rapid increase. The trading volume is relatively higher since 2021. However, the covid negtive impacts are larger but shorter time than the rapid growing interest rates.
+The index price and cummulative return has large drops due to Covid-19 effect as well as rapid increase in interest rate. The trading volume is relatively higher since 2021. However, the negtive impacts of Covid-19 are larger but shorter term than the rapid growing interest rates.
 
-The following figures shows the Banks index price and cumulative returns are slightly negtive correlated with Fed funds interest rate but slightly postive correlated with inflation rate.
+The following figures shows the Banks index price and cumulative returns are slightly negtively correlated with Fed funds interest rate but slightly postively correlated with inflation rate.
 
 ![fig16](./Figures/index_interests_inflation_plot.png)
 ![fig17](./Figures/index_interests_inflation_heatmap.png)
