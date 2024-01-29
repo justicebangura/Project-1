@@ -109,17 +109,17 @@ The following figures shows the Banks index price and cumulative returns are sli
 
 The net change in cash plot clearly illustrates a negative trend. This decline suggests a reduction in cash and cash equivalents, indicating that these banks have been spending more than they have been receiving. not excluding the impacts of the COVID-19 pandemic, Potential factors contributing to this decline could also include substantial investments, debt repayment, decreased earnings, or the impact of inflation.
 
-![Net Change In Cash](Figures/Net Change in Cash.png)
+![Net Change In Cash](Figures/net_change_in_cash.png)
 
 **Question:** What where the reasons for the decline in free cash flow for JPM,BAC and WFC?
 
 When examining the free cash flow graph, a notable decline is observed for three major banks: JPM, BAC, and WFC, during the pandemic period spanning from 2019 to 2021. Particularly, JPM experienced a significant drop, reaching as low as -1.760. It is worth considering that this decline may be linked to the Federal Reserve raising key interest rates in 2021. However, the subsequent years, from 2021 to 2023, have shown a remarkable recovery for JPM, surpassing both BAC and WFC. Regardless of these fluctuations, all three banks demonstrated positive growth after the pandemic, from 2021 to 2023, with values exceeding zero, except for BAC, which remained slightly below.
 
-![Free CAsh Flow](Figures/Free Cash Flow Plot.png)
+![Free CAsh Flow](Figures/free_Cash_flow_plot.png)
 
 **Question:** What analysis can you make on the difference between the operating cash flow and net income?
 
 An examination of the difference between operating cash flow and net income provides additional insights. The line graph clearly depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
 
-![Operating CAsh Flow vs Net Income](Figures/pygal plot.PNG)
+![Operating CAsh Flow vs Net Income](Figures/pygal_plot.PNG)
 
