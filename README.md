@@ -115,7 +115,7 @@ The net change in cash plot clearly illustrates a negative trend. This decline s
 
 When examining the free cash flow graph, a notable decline is observed for three major banks: JPM, BAC, and WFC, during the pandemic period spanning from 2019 to 2021. Particularly, JPM experienced a significant drop, reaching as low as -1.760. It is worth considering that this decline may be linked to the Federal Reserve raising key interest rates in 2021. However, the subsequent years, from 2021 to 2023, have shown a remarkable recovery for JPM, surpassing both BAC and WFC. Regardless of these fluctuations, all three banks demonstrated positive growth after the pandemic, from 2021 to 2023, with values exceeding zero, except for BAC, which remained slightly below.
 
-![Free CAsh Flow](Figures/free_cash_flow_plot.png)
+![Free CAsh Flow](Figures/free_cash_flow.png)
 
 **Question:** What analysis can you make on the difference between the operating cash flow and net income?
 
