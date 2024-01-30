@@ -49,6 +49,46 @@ According to the Sharpe ratios shown below, JPMorgan Chase has a more attractive
 
 ![Sharpe Ratios](Figures/sharpe_ratios_plot.png)
 
+### Balance Sheet Findings:
+
+**Question:** What are the method used to calculate the cap ratio?
+
+This capitalization ratio gives us a general assessment of how these banks perform. We used three years of balance sheet data from these banks to analyse the cap ratio. We can conclude that the banks have good financial health with an acceptable capitalization ratio. All three top banks use debts to grow its business while also managing risk by not using it too much. In this case, the investor can pick this company as one of the candidates to put their money in to. That is the reason these three banks stay on top in the US.
+
+![Cap Ratio](Figures/Cap_Ratio.png)
+
+**Current Ratio:**
+
+BAC, WFC, & JPM are one of the largest financial and holding firms, they provide various products and services to their customers. Global banking, including global corporate banking, global commercial banking, business banking and global investment banking, provides lending-related products and services, integrated working capital management and treasury solutions, and underwriting and advisory services. The current ratio for these banks almost stays at 1 times for all three years. Further we forsee the ratios would stay 1 due to the current market in the US.
+
+![Current Ratio](Figures/Current_Ratio.png)
+
+**Debt Ratio:**
+
+The debt ratio for a given bank basically discloses whether or not it has loans and if so, how it's credit financing compares to it's assets. It is calculated by dividing total liabilities by total assets, with higher debt ratios indicating higher degrees of debt financing. Banking industry shows relatively high D/E ratios in common place. Banks carry higher amounts of debt because they substantially hold fixed assets in the form of local branch networks.
+
+![Debt Ratio](Figures/Debt_Ratio.png)
+
+### Cash Flow Findings:
+
+**Question:** Why was there a decline in net change in cash?
+
+The net change in cash plot clearly illustrates a negative trend. This decline suggests a reduction in cash and cash equivalents, indicating that these banks have been spending more than they have been receiving. not excluding the impacts of the COVID-19 pandemic, Potential factors contributing to this decline could also include substantial investments, debt repayment, decreased earnings, or the impact of inflation.
+
+![Net Change In Cash](Figures/net_change_in_cash.png)
+
+**Question:** What where the reasons for the decline in free cash flow for JPM,BAC and WFC?
+
+When examining the free cash flow graph, a notable decline is observed for three major banks: JPM, BAC, and WFC, during the pandemic period spanning from 2019 to 2021. Particularly, JPM experienced a significant drop, reaching as low as -1.760. It is worth considering that this decline may be linked to the Federal Reserve raising key interest rates in 2021. However, the subsequent years, from 2021 to 2023, have shown a remarkable recovery for JPM, surpassing both BAC and WFC. Regardless of these fluctuations, all three banks demonstrated positive growth after the pandemic, from 2021 to 2023, with values exceeding zero, except for BAC, which remained slightly below.
+
+![Free CAsh Flow](Figures/free_cash_flow.png)
+
+**Question:** What analysis can you make on the difference between the operating cash flow and net income?
+
+An examination of the difference between operating cash flow and net income provides additional insights. The line graph clearly depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
+
+![Operating CAsh Flow vs Net Income](Figures/pygal_plot.PNG)
+
 ### Economic Environment Analysis
 
 **Question:** How does the 10 Year Treasury Bond and Fed Funds interest rate with 5 year forward inflation rate behave during 2019-2023? Are they correlated with each other?
@@ -102,46 +142,6 @@ The following figures shows the Banks index price and cumulative returns are sli
 
 ![fig16](./Figures/index_interests_inflation_plot.png)
 ![fig17](./Figures/index_interests_inflation_heatmap.png)
-
-### Cash Flow Findings:
-
-**Question:** Why was there a decline in net change in cash?
-
-The net change in cash plot clearly illustrates a negative trend. This decline suggests a reduction in cash and cash equivalents, indicating that these banks have been spending more than they have been receiving. not excluding the impacts of the COVID-19 pandemic, Potential factors contributing to this decline could also include substantial investments, debt repayment, decreased earnings, or the impact of inflation.
-
-![Net Change In Cash](Figures/net_change_in_cash.png)
-
-**Question:** What where the reasons for the decline in free cash flow for JPM,BAC and WFC?
-
-When examining the free cash flow graph, a notable decline is observed for three major banks: JPM, BAC, and WFC, during the pandemic period spanning from 2019 to 2021. Particularly, JPM experienced a significant drop, reaching as low as -1.760. It is worth considering that this decline may be linked to the Federal Reserve raising key interest rates in 2021. However, the subsequent years, from 2021 to 2023, have shown a remarkable recovery for JPM, surpassing both BAC and WFC. Regardless of these fluctuations, all three banks demonstrated positive growth after the pandemic, from 2021 to 2023, with values exceeding zero, except for BAC, which remained slightly below.
-
-![Free CAsh Flow](Figures/free_cash_flow.png)
-
-**Question:** What analysis can you make on the difference between the operating cash flow and net income?
-
-An examination of the difference between operating cash flow and net income provides additional insights. The line graph clearly depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
-
-![Operating CAsh Flow vs Net Income](Figures/pygal_plot.PNG)
-
-### Balance Sheet Findings:
-
-**Question:** What are the method used to calculate the cap ratio?
-
-This capitalization ratio gives us a general assessment of how these banks perform. We used three years of balance sheet data from these banks to analyse the cap ratio. We can conclude that the banks have good financial health with an acceptable capitalization ratio. All three top banks use debts to grow its business while also managing risk by not using it too much. In this case, the investor can pick this company as one of the candidates to put their money in to. That is the reason these three banks stay on top in the US.
-
-![Cap Ratio](Figures/Cap_Ratio.png)
-
-**Current Ratio:**
-
-BAC, WFC, & JPM are one of the largest financial and holding firms, they provide various products and services to their customers. Global banking, including global corporate banking, global commercial banking, business banking and global investment banking, provides lending-related products and services, integrated working capital management and treasury solutions, and underwriting and advisory services. The current ratio for these banks almost stays at 1 times for all three years. Further we forsee the ratios would stay 1 due to the current market in the US.
-
-![Current Ratio](Figures/Current_Ratio.png)
-
-**Debt Ratio:**
-
-The debt ratio for a given bank basically discloses whether or not it has loans and if so, how it's credit financing compares to it's assets. It is calculated by dividing total liabilities by total assets, with higher debt ratios indicating higher degrees of debt financing. Banking industry shows relatively high D/E ratios in common place. Banks carry higher amounts of debt because they substantially hold fixed assets in the form of local branch networks.
-
-![Debt Ratio](Figures/Debt_Ratio.png)
 
 ## Discussion
 
