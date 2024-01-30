@@ -2,11 +2,11 @@
 ### Group 2: Katie Nieuwhof, Catherine Ding, Sobi Iyver, Justice Bangura
 
 ## Motivation & Hypothesis
-**Hypothesis**: we believe that certain economic environment impacts the banks financial and market behavior in US free trade market. 
+**Hypothesis**: we believe that certain economic environments impact the banks financial and market behavior in the US free trade market. 
 
 We assume that:
 
-1.	The Top 3 US Banks stock data and their financial report, as well as with iShares S&P U.S. Banks UCITS ETF data can represent the US publicly traded Banks market.
+1.	The Top 3 US Banks stock data and their financial report, as well as iShares S&P U.S. Banks UCITS ETF data, can represent the US publicly traded Banks market.
 2.	The most important economic environment factors for US banks market can be briefly assessed by fed and treasury bonds interests, inflation forward rate, mortgage rates, cpi, and unemployment rate.
    
 **The primary question we asked is:**
@@ -27,7 +27,7 @@ We were able to answer the above question by analyzing the relationship between 
 
 **Question:** How has the bank market fluctuated over the past 5 years (2019-2023), and why?
 
-After calculating the daily returns, we were able to calculate the cumulative returns which is displayed in the plot below. We can see a rapid decline in the cumulative returns for the top 3 US banks as well as the bank index in 2020 with the onset of COVID-19. This is likely due to the instability and high volatility the market faced during the pandemic, as well as the drastic increase in unemployment rates which negatively impacts bank profitability. The cumulative returns for the top 3 US banks and the bank index steadily increase and peak in 2022 – likely due to rapid increase of fed interest rates in 2022. Thereafter, cumulative returns decline over the first half of 2022, then remaining stable through the end of 2023. 
+After calculating the daily returns, we were able to calculate the cumulative returns which is displayed in the plot below. We can see a rapid decline in the cumulative returns for the top 3 US banks as well as the bank index in 2020 with the onset of COVID-19. This is likely due to the instability and high volatility the market faced during the pandemic, as well as the drastic increase in unemployment rates which negatively impacts bank profitability. The cumulative returns steadily increase and peak in 2022, then decline over the first half of 2022 – likely due to rapid increase of fed interest rates in 2022. Thereafter, they remain stable through the end of 2023. 
 
 ![Cumulative Returns](Figures/cumulative_returns_plot.png)
 
@@ -35,9 +35,9 @@ The plot below displays the rolling standard deviation with a window of 21 days.
 
 ![Rolling Standard Deviation](Figures/rolling_std_plot.png)
 
-**Question:** How are do the 3 top US banks compare to each another and the bank index?
+**Question:** How do the 3 top US banks compare to each another and the bank index?
 
-The heatmap below displays the correlation of the top 3 US bank stock prices with the bank index. This heat map demonstrates that JP Morgan Chase and Bank of America are the most correlated amongst the 4, which is not a surprise given they are the top 2 banks in the US. 
+The heatmap below displays the correlation of the top 3 US bank stock prices and the bank index. This heat map demonstrates that JP Morgan Chase and Bank of America are the most correlated amongst the 4, which is not a surprise given they are the top 2 banks in the US. 
 
 ![Heat Map](Figures/heatmap.png)
 
@@ -87,7 +87,7 @@ From relationship plots and the correlation heatmap of 30-year mortgage rate vs 
 
 Unemployment Rate is negtively correlated with CPI and mortgage rate, and its changes were not affected by CPI or mortgage rate change. At the same period, mortgage rate with CPI has a weak correlation with their changes.
 
-**Question:**  How does US banks index price and trading volume look like during 2019-2023? Is the US banks index price affected by interests or inflation rates?
+**Question:**  How does US banks index price and trading volume look during 2019-2023? Is the US banks index price affected by interests or inflation rates?
 
 The S&P 500 US Banks IShare Index data from 2019-2023 as:
 
@@ -122,4 +122,32 @@ When examining the free cash flow graph, a notable decline is observed for three
 An examination of the difference between operating cash flow and net income provides additional insights. The line graph clearly depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
 
 ![Operating CAsh Flow vs Net Income](Figures/pygal_plot.PNG)
+
+### Balance Sheet Findings:
+
+**Question:** What are the method used to calculate the cap ratio?
+
+This capitalization ratio gives us a general assessment of how these banks perform. We used three years of balance sheet data from these banks to analyse the cap ratio. We can conclude that the banks have good financial health with an acceptable capitalization ratio. All three top banks use debts to grow its business while also managing risk by not using it too much. In this case, the investor can pick this company as one of the candidates to put their money in to. That is the reason these three banks stay on top in the US.
+
+![Cap Ratio](Figures/Cap_Ratio.png)
+
+**Current Ratio:**
+
+BAC, WFC, & JPM are one of the largest financial and holding firms, they provide various products and services to their customers. Global banking, including global corporate banking, global commercial banking, business banking and global investment banking, provides lending-related products and services, integrated working capital management and treasury solutions, and underwriting and advisory services. The current ratio for these banks almost stays at 1 times for all three years. Further we forsee the ratios would stay 1 due to the current market in the US.
+
+![Current Ratio](Figures/Current_Ratio.png)
+
+**Debt Ratio:**
+
+The debt ratio for a given bank basically discloses whether or not it has loans and if so, how it's credit financing compares to it's assets. It is calculated by dividing total liabilities by total assets, with higher debt ratios indicating higher degrees of debt financing. Banking industry shows relatively high D/E ratios in common place. Banks carry higher amounts of debt because they substantially hold fixed assets in the form of local branch networks.
+
+![Debt Ratio](Figures/Debt_Ratio.png)
+
+## Discussion
+
+* COVID has negatively impacted the banks market in the short-term with rapid growing unemployment rates. Similarly, negative impacts are found by rapid increase of interest rates. However, the impact of COVID to the bank market was a shorter duration than the largely increased interest rates.
+* Fed drops the base interest rate during COVID which helps the banks earnings, financial status and stability of the US bank market.
+* After rapid increase of the base interest rate by fed due to growing inflation rate, the banks earnings drop which negatively impacts the US banks financials and the banks stock market. At the same time, the inflation rate is slightly higher than pre-Covid period but stable. Once the treasury bond interest rate drops, the inflation rate slightly drops and the banks stock returns start to go up slightly as well.
+* The proportion between Capitalization Ratio and Debt ratio are relatively consistent among the top 3 US banks.
+* More analysis can be done for the sensitivity analysis of interest rate change with banks stocks and bank index price change.
 
