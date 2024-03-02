@@ -1,5 +1,7 @@
 # US Banks & IShare ETF Financial Analysis
 
+![ETF](https://www.investopedia.com/thmb/zWZxDgK5_wR_bANM5egsY-zzeLo=/2119x1414/filters:fill(auto,1)/GettyImages-1161118927-78e0b7d046eb422b804c9ba45ac1467d.jpg)
+
 ### Group 2: Justice Bangura, Katie Nieuwhof, Catherine Ding, Sobi Iyver,
 
 ## Motivation & Hypothesis
