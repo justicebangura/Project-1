@@ -1,5 +1,6 @@
-# Project-1: US Banks & IShare ETF Financial Analysis
-### Group 2: Katie Nieuwhof, Catherine Ding, Sobi Iyver, Justice Bangura
+# US Banks & IShare ETF Financial Analysis
+
+### Group 2: Justice Bangura, Katie Nieuwhof, Catherine Ding, Sobi Iyver,
 
 ## Motivation & Hypothesis
 **Hypothesis**: we believe that certain economic environments impact the banks financial and market behavior in the US free trade market. 
@@ -101,9 +102,9 @@ The above plot shows that inflation dropped signicantly when Covid started in Fe
 From the correlation heatmap between interest rates and 5 year inflation forward rate:
 ![fig2](./Figures/rates_inflattion_heatmap.png) 
 
-It is seen that 10 year treasury bond interest rate is highly correlated with Fed funds interest rate, and 5-year forward inflation rate is more correlated with 10 year treasury bond interest rate rather than Fed Funds interest rate.
+It is seen that the 10-year treasury bond interest rate is highly correlated with Fed funds interest rate, and the 5-year forward inflation rate is more correlated with 10-year treasury bond interest rate rather than the Fed Funds interest rate.
 
-The relationship plots show similar relationships of 10 year treasury bond interest rate change vs 5 year forward inflation rate change vs Fed Funds interest rate change as:
+The relationship plots show similar relationships of 10-year treasury bond interest rate change vs 5-year forward inflation rate change vs Fed Funds interest rate change as:
 
 ![fig3](./Figures/treasury_inflation_plot.png) 
 ![fig4](./Figures/fed_inflation_plot.png) 
