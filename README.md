@@ -13,6 +13,7 @@ We assume that:
 2.	The most important economic environment factors for US banks market can be briefly assessed by fed and treasury bonds interests, inflation forward rate, mortgage rates, cpi, and unemployment rate.
    
 **The primary question we asked is:**
+
 How did the US publicly traded Banks market behave during the last 5 years (2019-2023) based on the recent economic environment?
 
 We asked this question because we have experienced a special period over the last 5 years due to Covid-19 and huge interest rate changes.
@@ -20,9 +21,10 @@ We asked this question because we have experienced a special period over the las
 We were able to answer the above question by analyzing the relationship between the bank stock prices, the financial data, the economic data, and the banks index. We chose the top 3 US publicly traded banks - JP Morgan Chase, Bank of America, and Wells Fargo - and analyzed their stock price behaviors, 3 years of their recent financial data from their annual reports, and we compared them to one another. We also compared the data with iShares S&P U.S. Banks UCITS ETF price data and analyzed the economic data (such as fed and treasury bonds interest rates, forward inflation rate, cpi, unemployment rate, fixed mortgage rate) to assess their impacts to the banks stock market.
 
 **The data we used, and where we found it:**
-* Stock prices for JPM, BAC, and WFC were found using Google Finance function in excel sheets, and their financial data found using yahoo finance api
-* IShare US Bank ETF Index data found by yahoo finance api
-* Economic market data found online via New York Stock Exchange
+
+* Stock prices for JPM, BAC, and WFC were found using the Google Finance function in excel sheets, and their financial data found using yahoo finance api
+* IShare US Bank ETF Index data found by Yahoo Finance api
+* Economic market data found online via the New York Stock Exchange
 
 ## Findings
 
@@ -44,31 +46,31 @@ The heatmap below displays the correlation of the top 3 US bank stock prices and
 
 ![Heat Map](Figures/heatmap.png)
 
-The distribution plot is based off of daily returns, and it appears all 3 banks and the index are relatively normally distributed.
+The distribution plot is based on daily returns, and it appears all 3 banks and the index are relatively normally distributed.
 
 ![Distribution](Figures/distrubution_plot.png)
 
-According to the Sharpe ratios shown below, JPMorgan Chase has a more attractive risk reward trade off compared to the other banks and the bank index, indicating a greater return at a lower risk. 
+According to the Sharpe ratios shown below, JPMorgan Chase has a more attractive risk-reward trade off compared to the other banks and the bank index, indicating a greater return at a lower risk. 
 
 ![Sharpe Ratios](Figures/sharpe_ratios_plot.png)
 
 ### Balance Sheet Findings:
 
-**Question:** What are the method used to calculate the cap ratio?
+**Question:** What are the methods used to calculate the cap ratio?
 
-This capitalization ratio gives us a general assessment of how these banks perform. We used three years of balance sheet data from these banks to analyse the cap ratio. We can conclude that the banks have good financial health with an acceptable capitalization ratio. All three top banks use debts to grow its business while also managing risk by not using it too much. In this case, the investor can pick this company as one of the candidates to put their money in to. That is the reason these three banks stay on top in the US.
+This capitalization ratio gives us a general assessment of how these banks perform. We used three years of balance sheet data from these banks to analyze the cap ratio. We can conclude that the banks have good financial health with an acceptable capitalization ratio. All three top banks use debts to grow their business while also managing risk by not using it too much. In this case, the investor can pick this company as one of the candidates to put their money into. That is the reason these three banks stay on top in the US.
 
 ![Cap Ratio](Figures/Cap_Ratio.png)
 
 **Current Ratio:**
 
-BAC, WFC, & JPM are one of the largest financial and holding firms, they provide various products and services to their customers. Global banking, including global corporate banking, global commercial banking, business banking and global investment banking, provides lending-related products and services, integrated working capital management and treasury solutions, and underwriting and advisory services. The current ratio for these banks almost stays at 1 times for all three years. Further we forsee the ratios would stay 1 due to the current market in the US.
+BAC, WFC, & JPM are one of the largest financial and holding firms, they provide various products and services to their customers. Global banking, including global corporate banking, global commercial banking, business banking and global investment banking, provides lending-related products and services, integrated working capital management and treasury solutions, and underwriting and advisory services. The current ratio for these banks almost stays at 1 time for all three years. Further, we forsee the ratios would stay at 1 due to the current market in the US.
 
 ![Current Ratio](Figures/Current_Ratio.png)
 
 **Debt Ratio:**
 
-The debt ratio for a given bank basically discloses whether or not it has loans and if so, how it's credit financing compares to it's assets. It is calculated by dividing total liabilities by total assets, with higher debt ratios indicating higher degrees of debt financing. Banking industry shows relatively high D/E ratios in common place. Banks carry higher amounts of debt because they substantially hold fixed assets in the form of local branch networks.
+The debt ratio for a given bank discloses whether or not it has loans and if so, how its credit financing compares to its assets. It is calculated by dividing total liabilities by total assets, with higher debt ratios indicating higher degrees of debt financing. The banking industry shows relatively high D/E ratios in common place. Banks carry higher amounts of debt because they substantially hold fixed assets in the form of local branch networks.
 
 ![Debt Ratio](Figures/Debt_Ratio.png)
 
@@ -76,11 +78,11 @@ The debt ratio for a given bank basically discloses whether or not it has loans 
 
 **Question:** Why was there a decline in net change in cash?
 
-The net change in cash plot clearly illustrates a negative trend. This decline suggests a reduction in cash and cash equivalents, indicating that these banks have been spending more than they have been receiving. not excluding the impacts of the COVID-19 pandemic, Potential factors contributing to this decline could also include substantial investments, debt repayment, decreased earnings, or the impact of inflation.
+The net change in the cash plot clearly illustrates a negative trend. This decline suggests a reduction in cash and cash equivalents, indicating that these banks have been spending more than they have been receiving. not excluding the impacts of the COVID-19 pandemic, Potential factors contributing to this decline could also include substantial investments, debt repayment, decreased earnings, or the impact of inflation.
 
 ![Net Change In Cash](Figures/net_change_in_cash.png)
 
-**Question:** What where the reasons for the decline in free cash flow for JPM,BAC and WFC?
+**Question:** What were the reasons for the decline in free cash flow for JPM, BAC, and WFC?
 
 When examining the free cash flow graph, a notable decline is observed for three major banks: JPM, BAC, and WFC, during the pandemic period spanning from 2019 to 2021. Particularly, JPM experienced a significant drop, reaching as low as -1.760. It is worth considering that this decline may be linked to the Federal Reserve raising key interest rates in 2021. However, the subsequent years, from 2021 to 2023, have shown a remarkable recovery for JPM, surpassing both BAC and WFC. Regardless of these fluctuations, all three banks demonstrated positive growth after the pandemic, from 2021 to 2023, with values exceeding zero, except for BAC, which remained slightly below.
 
@@ -88,15 +90,15 @@ When examining the free cash flow graph, a notable decline is observed for three
 
 **Question:** What analysis can you make on the difference between the operating cash flow and net income?
 
-An examination of the difference between operating cash flow and net income provides additional insights. The line graph clearly depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
+An examination of the difference between operating cash flow and net income provides additional insights. The line graph depicts JPM's challenges in 2021, as evidenced by a drop to -2. This trend is also reflected in the free cash flow line graph. It is important to explore the effects of other variables, such as the sale of bank assets or significant capital expenditures, such as substantial investments which can significantly impact a bank's financial performance.
 
 ![Operating CAsh Flow vs Net Income](Figures/pygal_plot.PNG)
 
 ### Economic Environment Analysis
 
-**Question:** How does the 10 Year Treasury Bond and Fed Funds interest rate with 5 year forward inflation rate behave during 2019-2023? Are they correlated with each other?
+**Question:** How does the 10-year Treasury Bond and Fed Funds interest rate with a 5-year forward inflation rate behave during 2019-2023? Are they correlated with each other?
 
-Figure 2019-2023 Interest Rates and Inflation forward rates behaviour:
+Figure 2019-2023 Interest Rates and Inflation forward rates behavior:
 ![fig1](./Figures/rates_inflattion_plot.png) 
 
 The above plot shows that inflation dropped signicantly when Covid started in Feb 2020 and maintained low, then Fed decreased the Fed Funds Interest Rate to almost 0 to bring up the inflation. However, the 5 year forward inflation rate continued rising since 2021 while the fed fund interest rate remainded very low. The 10 year treasury bond interest is growing to maintain the 5 year forward inflation rate in a relatively stable level until the fed fund interest rate starts to grow rapidly by Fed since early 2022, while the 5 year forward inflation rate remains stable but slightly higher level than pre-Covid period. Until the most recent increase of Fed Fund Interest, the inflation rate gradualy starts to drop since the end of 2023.
